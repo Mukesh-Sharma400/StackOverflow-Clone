@@ -38,13 +38,13 @@ const Navbar = () => {
         <Link to="/" className="nav-item nav-btn">
           <img src={logo} alt="logo" />
         </Link>
-        <Link to="/" className="nav-item nav-btn">
+        <Link to="/" className="nav-item mid-nav-item nav-btn">
           About
         </Link>
-        <Link to="/" className="nav-item nav-btn">
+        <Link to="/" className="nav-item mid-nav-item nav-btn">
           Products
         </Link>
-        <Link to="/" className="nav-item nav-btn">
+        <Link to="/" className="nav-item mid-nav-item nav-btn">
           For Teams
         </Link>
         <form>

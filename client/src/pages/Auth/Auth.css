@@ -1,7 +1,6 @@
 .auth-section {
   min-height: 100vh;
   margin: 0% auto;
-  background-color: #f1f2f3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +38,7 @@
 
 .auth-container-2 form label input {
   padding: 10px;
-  width: calc(100% - 30px);
+  width: calc(100% - 25px);
   border: solid 1px #0000003e;
   font-size: 13px;
 }
@@ -83,9 +82,45 @@
   border: none;
   font-size: 13px;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
 }
 
 input#check {
   height: 15px;
   margin: auto 0;
+  margin-right: 5px;
+}
+@media (min-width: 320px) {
+  .auth-section {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .auth-container-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-container-1 {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .auth-section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
 }

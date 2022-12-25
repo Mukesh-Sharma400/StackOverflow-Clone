@@ -16,7 +16,8 @@ const WidgetTags = () => {
     "node.js",
     "php",
     "python",
-    "reactjs",
+    "react.js",
+    "express.js",
   ];
 
   return (
