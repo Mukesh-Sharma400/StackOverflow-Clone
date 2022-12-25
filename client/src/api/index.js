@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://stackoverflow-mukesh.netlify.app",
+  baseURL: "https://stackoverflow-if40.onrender.com",
 });
 
 API.interceptors.request.use((req) => {
