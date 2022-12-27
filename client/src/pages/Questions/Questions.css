@@ -135,3 +135,26 @@
   line-height: 18px;
   white-space: pre-line;
 }
+@media (min-width: 320px) {
+}
+@media (min-width: 375px) {
+}
+@media (min-width: 576px) {
+}
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  .question-details-page {
+    width: 100%;
+  }
+}
+
+@media (width: 1024px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
+}
