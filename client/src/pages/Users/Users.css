@@ -4,7 +4,6 @@
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 30px;
 }
-
 .user-profile-link {
   display: flex;
   align-items: center;
@@ -12,13 +11,11 @@
   text-decoration: none;
   color: black;
 }
-
 .user-profile-link h3 {
   padding: 10px 13px;
   background-color: #d3d3d3;
   border-radius: 50%;
 }
-
 .user-profile-link h5 {
   margin: 0px 10px;
 }
