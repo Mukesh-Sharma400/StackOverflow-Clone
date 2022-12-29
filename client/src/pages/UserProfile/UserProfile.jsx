@@ -46,9 +46,18 @@ const UserProfile = () => {
               <button
                 type="button"
                 onClick={() => setSwitch(true)}
-                className="edit-profile-btn"
+                className="edit-profile-btn edit-profile-btn-big"
               >
                 <FontAwesomeIcon icon={faPen} /> Edit Profile
+              </button>
+            )}
+            {currentUser?.result._id === id && (
+              <button
+                type="button"
+                onClick={() => setSwitch(true)}
+                className="edit-profile-btn edit-profile-btn-small"
+              >
+                <FontAwesomeIcon icon={faPen} />
               </button>
             )}
           </div>
@@ -57,6 +66,7 @@ const UserProfile = () => {
               <EditProfileForm
                 currentUser={currentUser}
                 setSwitch={setSwitch}
+                className="edit-profile-form"
               />
             ) : (
               <ProfileBio currentProfile={currentProfile} />

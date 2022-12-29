@@ -97,7 +97,7 @@ input#check {
 }
 @media (min-width: 768px) {
   .auth-section {
-    width: 90%;
+    width: 100%;
   }
   .auth-container-2 {
     max-width: 30%;
