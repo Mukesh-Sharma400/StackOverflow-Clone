@@ -22,7 +22,7 @@ const QuestionsDetails = () => {
   const Navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
-  const url = "https://stackoverflow-mukesh.netlify.app";
+  const url = "https://stackoverflow-mukesh.netlify.app/#";
 
   const handlePostAns = (e, answerLength) => {
     e.preventDefault();
