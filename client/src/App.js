@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import AllRoutes from "./AllRoutes";
 import Navbar from "./components/Navbar/Navbar";
