@@ -39,14 +39,6 @@ const LeftSidebar = () => {
             <p>Users</p>
           </NavLink>
         </div>
-        <a
-          href="https://stackpedia-mukesh.netlify.app/"
-          rel="noreferrer"
-          target="_blank"
-          className="side-nav-links"
-        >
-          <p>COMMUNITY</p>
-        </a>
       </nav>
     </div>
   );
